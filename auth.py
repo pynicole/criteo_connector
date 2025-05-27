@@ -43,3 +43,4 @@ class CriteoAuth:
         if self.is_token_expired():
             raise Exception("Token expired. Refresh required.")
         return self.token
+    
